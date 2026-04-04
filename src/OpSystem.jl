@@ -1,4 +1,4 @@
-module PACKAGE_NAME
+module OpSystem
 
 # TODO: exports
 
