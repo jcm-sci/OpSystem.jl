@@ -1,5 +1,7 @@
 # OpSystem.jl
 
+[![jcm-sci](https://img.shields.io/badge/jcm--sci-jcmacdonald.dev-blue)](https://jcmacdonald.dev/software/)
+
 Declarative dynamical system specification compiler — YAML to callable.
 
 ## Overview
