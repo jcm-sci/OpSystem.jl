@@ -22,7 +22,7 @@ suitable for numerical integration.
 |---------|-------------|
 | [op_system](https://github.com/ACCIDDA/op_system) | Original Python implementation |
 | [OpEngine.jl](https://github.com/jcm-sci/OpEngine.jl) | Numerical solver (consumes OpSystem output) |
-| [ModelCriticism.jl](https://github.com/jcm-sci/ModelCriticism.jl) | Model evaluation framework (downstream consumer) |
+| [TradeStudy.jl](https://github.com/jcm-sci/TradeStudy.jl) | Model evaluation framework (downstream consumer) |
 
 ## Installation
 
