@@ -1,35 +1,23 @@
 # OpSystem.jl
 
-[![jcm-sci](https://img.shields.io/badge/jcm--sci-jcmacdonald.dev-blue)](https://jcmacdonald.dev/software/)
+[![jcm-sci](https://img.shields.io/badge/jcm--sci-jcmacdonald.dev-blue)](https://jcmacdonald.dev/projects/)
 
-Declarative dynamical system specification compiler — YAML to callable.
+> [!IMPORTANT]
+> **Inactive design scaffold.** This repository does not currently provide a
+> usable Julia package or public API. Its source module and tests are
+> placeholders, and the package is not registered in Julia's General registry.
 
-## Overview
+## Current implementation
 
-`OpSystem.jl` is a Julia port of
-[ACCIDDA/op_system](https://github.com/ACCIDDA/op_system) (Python). It provides
-a declarative specification language for defining trait-structured dynamical
-systems, compiling YAML definitions into callable operator-partitioned forms
-suitable for numerical integration.
+The maintained implementation is the Python
+[ACCIDDA/op_system](https://github.com/ACCIDDA/op_system) package, with
+documentation at [accidda.github.io/op_system](https://accidda.github.io/op_system/).
 
-## Status
+## Repository purpose
 
-**Pre-alpha.** Port in progress.
-
-## Related Packages
-
-| Package | Description |
-|---------|-------------|
-| [op_system](https://github.com/ACCIDDA/op_system) | Original Python implementation |
-| [OpEngine.jl](https://github.com/jcm-sci/OpEngine.jl) | Numerical solver (consumes OpSystem output) |
-| [TradeStudy.jl](https://github.com/jcm-sci/TradeStudy.jl) | Model evaluation framework (downstream consumer) |
-
-## Installation
-
-```julia
-using Pkg
-Pkg.add("OpSystem")
-```
+This repository is retained as a possible starting point for a future Julia
+port. There is no active development timeline. Do not depend on it for
+research or production work.
 
 ## Development
 
